@@ -2,6 +2,7 @@
 1. dữ liệu được sử dụng nhiều nơi
 2. có hỗ trợ chức năng undo/redo
 3 cần cache dữ liệu để tái sử dụng cho những lần sau
+
 `note: nếu app đang chạy tốt mà hông có redux, vậy có thể app đó không cần tới redux`
 1. redux sử dụng kiến trúc 1 chiều: uni-directional data flow
 2. redux chỉ dùng 1 store duy nhất làm single source of truth
