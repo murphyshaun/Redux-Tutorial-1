@@ -30,7 +30,7 @@ Redux sẽ rất hữu dụng đối với các trường hợp sau đây:
 - Immutability (bất biến)
 <img src='./images/immutability.JPG' >
 - architecture
-<img src='./images/architecture.gif' >
+<img src='https://images.viblo.asia/02b5e869-9205-4791-88b1-de11b90d3591.gif' >
 
 ## khi nào cần sử dụng redux
 1. dữ liệu được sử dụng nhiều nơi
