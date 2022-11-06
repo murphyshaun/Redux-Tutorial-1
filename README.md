@@ -95,3 +95,5 @@ vd: Tính thời gian bắt đầu công việc
     - bất đồng bộ trong javascript (async trong js)
 - redux là 1 PATTERN
 ```
+
+## redux devtools
