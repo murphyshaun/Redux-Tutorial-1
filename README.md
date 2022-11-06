@@ -29,6 +29,8 @@ Redux sẽ rất hữu dụng đối với các trường hợp sau đây:
 - State Management
 - Immutability (bất biến)
 <img src='./images/immutability.JPG' >
+- architecture
+<img src='./images/architecture.gif' >
 
 ## khi nào cần sử dụng redux
 1. dữ liệu được sử dụng nhiều nơi
