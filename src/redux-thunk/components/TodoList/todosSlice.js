@@ -30,12 +30,10 @@ const totosSlice =  createSlice({
                 state.todos.push(action.payload);
             })
             .addCase(updateTodo.fulfilled, (state, {payload}) => {
-                //https://stackoverflow.com/questions/65448899/redux-returning-a-proxy-object-instead-of-the-state
-                // let currentTodo = current(state).todos.find((todo) => todo.id === payload.id);
-                // currentTodo.completed = payload.completed;
-                // Object.assign(currentTodo.completed, payload.completed)
-                // const data = payload.completed;
-                // console.log(currentTodo.completed);
+                state.todos.map(todo => {
+                    if(todo.id === payload.id)
+                        todo.completed = payload.completed;
+                });
             })
     }
 });
